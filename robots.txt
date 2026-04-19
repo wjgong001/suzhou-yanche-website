@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+Sitemap: https://suzhouyanche.cn/sitemap.xml
+
+# 百度蜘蛛专用
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+# 谷歌蜘蛛
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
+
+# 其他搜索引擎
+User-agent: *
+Allow: /
+Crawl-delay: 3
